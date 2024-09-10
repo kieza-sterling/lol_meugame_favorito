@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: bungee, cursive;
+    font-weight: normal;
+}
+
+body, input, textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+   align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    color: #182c61;
+}
+
+section{
+    color: #182c61;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+#about{
+    background-color: rgba(4, 46, 53, 0.301);
+}
+
+#about .league{
+    height: 300px;
+}
+
+#about h3{
+    color: rgb(29, 28, 28);
+}
+
+#about h2{
+    color: #030449;
+}
+
+.league{
+    margin-right: 16px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.contatos{
+    position: absolute;
+    left: 700px;
+}
+
+#contact .container{
+    display: block;
+}
+
+#contact .contact-methods p{
+    font-size: 20px;
+}
+
+.contact-methods{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#experiencia{
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+#experiencia h2{
+    color:#fff;
+    white-space: nowrap;
+}
+
+.gameplay{
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: left;
+    position:relative;
+    top: 42px;
+    right: 48%;
+    height: 320px;
+    
+}
+
+#person{
+    background-color: rgb(82, 1, 1);
+}
+#person h2,
+#person h3{
+    color:blanchedalmond;
+    white-space: nowrap;
+}
+
+#person h3{
+    position: relative;
+    bottom: 125px;
+    left: 400px;
+    font-size: 30px;
+}
+
+#person .mordekaiser{
+    left: 350px;
+}
+
+.campeoes img{
+    height: 200px;
+    margin-right: 16px;
+    position: relative;
+    top: 50px;
+    right: 350px;
+    transition: 1s;
+}
+
+#person .aatrox{
+    height: 190px;
+}
+
+.campeoes img:hover{
+    transform: scale(1.15);
+}
+
+.campeoes p{
+    color: antiquewhite;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+form textarea,
+form button,
+form input{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    height: 180px;
+    resize: none;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #182c61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+form button:hover{
+    background-color: #0c1530;
+    transform: scale(1.05);
+}
+
+input:focus,textarea:focus{
+    outline: #182c61;
+}
+
+footer{
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
